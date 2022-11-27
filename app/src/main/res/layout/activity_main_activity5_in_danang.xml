@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity3_trangchu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btnClick_Home"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/logo1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Đà Nẵng"
+                android:textColor="@color/red"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/danang2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Với những bãi biển rộng lớn, ẩm thực đường phố tuyệt vời, con đèo Hải Vân huyền thoại và một loạt các quán cà phê, nhà hàng và quán bar ngày càng tăng, không có gì ngạc nhiên khi người dân Đà Nẵng có được những nụ cười tỏa nắng nhất cả nước. Những bãi cát ấm áp của Bãi biển Mỹ Khê quét về phía Nam từ Bán đảo Sơn Trà miền núi. Đà Nẵng có một số khu nghỉ dưỡng sang trọng hàng đầu Việt Nam."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Những điều nên làm ở Đà Nẵng:"
+                android:textColor="@color/red"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Tận hưởng bãi biển \n
+                \nNgắm bán đảo Sơn Trà\n
+                \nTìm hiểu về văn hóa Chăm\n
+                \nKhám phá Ngũ Hành Sơn"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời tiết ở Đà Nẵng"
+                android:textColor="@color/red"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Đà Nẵng là một điểm đến tuyệt vời quanh năm. Tuy nhiên, những tháng tốt nhất để đến thăm là từ tháng 3 đến tháng 5 và tháng 9 đến tháng 10, khi thời tiết ấm áp. Tháng 6 đến tháng 8 ít mưa và biển trong xanh, lặng gió. Mùa mưa từ tháng 11 đến tháng 2 mang đến những cơn mưa kéo dài và thời tiết thất thường."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Di chuyển ở Đà Nẵng"
+                android:textColor="@color/red"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Sân bay Quốc tế Đà Nẵng có một số kết nối hàng ngày đến các thành phố lớn ở Việt Nam. Ngày càng có nhiều chuyến bay nối chuyến quốc tế. Xe lửa và xe buýt đi qua Đà Nẵng, trở thành một trung tâm du lịch thuận tiện để khám phá miền Trung. Trong thị trấn, taxi rất nhiều, cũng như các ứng dụng gọi xe. Các chuyến đi phổ biến từ Đà Nẵng được sắp xếp dễ dàng, dù đi đến Ngũ Hành Sơn, Bán đảo Sơn Trà, Hội An hay đèo Hải Vân, các tour du lịch bằng xe máy hoặc ô tô đều có sẵn."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_color"
+                android:text="Lưu"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

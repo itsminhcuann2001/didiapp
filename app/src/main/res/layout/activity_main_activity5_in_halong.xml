@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity3_trangchu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btnClick_Home"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/logo1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Hạ Long"
+                android:textColor="@color/red"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/halong" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Du ngoạn trên biển xanh như ngọc giữa hàng ngàn hòn đảo và cù lao gồ ghề, dừng lại ở những hang động kì vĩ mà qua đó du khách có thể chiêm ngưỡng, ngắm nhìn những kiến tạo ấn tượng có từ hàng thế kỷ. Vẻ đẹp huyền bí của Vịnh Hạ Long đã khiến nơi đây trở thành một danh sách hấp dẫn trong cả nước, nhưng bạn vẫn có thể tìm thấy những góc vắng vẻ để gọi tên cho riêng mình. "
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Hoạt động giải trí hàng đầu ở Vịnh Hạ Long:"
+                android:textColor="@color/red"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Du ngoạn trên vịnh\n
+                \nKhám phá làng nổi\n
+                \nChèo thuyền kayak\n
+                \nThử sức với môn leo núi"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời tiết ở Hạ Long"
+                android:textColor="@color/red"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Khí hậu Vịnh Hạ Long có thể mát mẻ với bầu trời trong xanh từ tháng 9 đến tháng 11. Sương mù kéo dài từ tháng 12 đến tháng 3 làm cho vẻ bí ẩn của vịnh. Tháng 4 và tháng 5 cung cấp ánh nắng mặt trời và làn gió tươi mát, trong khi mùa gió mùa có thể khiến các chuyến thăm không thể đoán trước từ tháng 6 đến tháng 8."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Di chuyển ở Hạ Long"
+                android:textColor="@color/red"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Hầu hết du khách đến Vịnh Hạ Long đều chọn du lịch trọn gói, bao gồm cả phương tiện di chuyển đến và đi từ Hà Nội. Du khách tự túc có thể đi xe buýt đến thành phố Hạ Long hoặc Hải Phòng và đi taxi đến cảng. Bạn cũng có thể thuê thủy phi cơ trong vòng 45 phút đi thẳng từ Sân bay Quốc tế Nội Bài. Du lịch Vịnh Hạ Long tốt nhất là đi thuyền. Những người muốn ngắm nhìn toàn cảnh có thể đặt trước 15 phút đi thủy phi cơ trên vịnh. Tại thành phố Hạ Long, bạn có thể thuê taxi để đi lại trong thị trấn."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_color"
+                android:text="Lưu"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

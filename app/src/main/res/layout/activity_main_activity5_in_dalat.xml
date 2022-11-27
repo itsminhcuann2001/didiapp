@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity3_trangchu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btnClick_Home"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/logo1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Đà Lạt"
+                android:textColor="@color/red"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/dalat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Ẩn mình trong Tây Nguyên, Đà Lạt đóng vai trò là người em họ mát mẻ hơn đối với các điểm đến ven biển của Việt Nam. Nổi tiếng với nét duyên dáng của vùng nông thôn, Đà Lạt thu hút các cặp đôi, những người tìm kiếm sức khỏe và những người đam mê hoạt động ngoài trời. Thị trấn nghỉ mát trên núi này từng là nơi nghỉ ngơi vào mùa hè của người Pháp, những người đã để lại dấu ấn trong kiến trúc lấy cảm hứng từ châu Âu"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Những điều nên làm ở Đà Lạt:"
+                android:textColor="@color/red"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Tham quan các địa danh của thành phố \n
+                \nĐi xe lửa, đi bộ đường dài, đi xe đạp\n
+                \nNếm thử văn hóa cà phê địa phương"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời tiết ở Đà Lạt"
+                android:textColor="@color/red"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Thường được gọi là thành phố của mùa xuân vĩnh cửu, khí hậu ôn hòa của Đà Lạt là điểm nhấn thu hút du khách mỗi khi ghé thăm. Hãy chắc chắn mang theo áo khoác nếu bạn đến thăm trong khoảng thời gian từ tháng 11 đến tháng 1, và ô che mưa từ tháng 4 đến tháng 11. Nếu bạn thích một kỳ nghỉ ấm áp hơn, tháng Năm là sự lựa chọn hoàn hảo."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Di chuyển ở Đà Lạt"
+                android:textColor="@color/red"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Sân bay Đà Lạt chỉ cách thị xã 30km về phía Nam, kết nối với các trung tâm lớn từ Bắc vào Nam. Xe buýt giường nằm sẽ đưa bạn đến từ Thành phố Hồ Chí Minh, trong khi Mũi Né và Nha Trang lân cận chỉ cách đó vài giờ đi ô tô hoặc xe đưa đón. Những du khách ưa mạo hiểm sẽ thích đi tham quan bằng xe máy. Các tuyến đường phổ biến là đến Thác Voi, các làng K'ho lân cận hoặc Hồ Tuyền Lâm. Thị trấn có thể dễ dàng di chuyển bằng cách đi bộ hoặc taxi."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_color"
+                android:text="Lưu"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
